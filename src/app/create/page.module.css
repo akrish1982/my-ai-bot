@@ -1,0 +1,53 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary);
+    /* Light gray background to distinguish from card */
+}
+
+.header {
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.progress {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+}
+
+.main {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.footer {
+    background-color: var(--background);
+    border-top: 1px solid var(--border);
+    padding: 1rem 2rem;
+}
+
+.footerContent {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeholder {
+    text-align: center;
+    padding: 4rem;
+    color: var(--muted-foreground);
+    border: 2px dashed var(--border);
+    border-radius: var(--radius);
+}
